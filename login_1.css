@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#first-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.6% 1.6% 1.6% 5%;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap:111px;
+
+}
+.nav-bar{
+    display: flex;
+   
+  font-family: 'Roboto' , sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+padding-top: 37px ;
+color: #42A7C3;
+
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    margin-left:78px;
+    padding:40px;
+    gap:16px;
+    
+}
+.line-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:206px;
+}
+.line-1-word-1{
+    font-family: 'Lato' ,sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+display: flex;
+align-items: flex-end;
+
+color: #515151;
+}
+.line-1-word-2{
+    width: 47px;
+    
+height: 22px;
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.5px;
+color: #0098EA;
+
+}
+.email{
+padding: 8px;
+border-radius: 5px;
+border: 1px solid #D0D0D0;
+}
+.password{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #D0D0D0;
+}
+.masuk{
+    padding: 12px 69px;
+    border:  1px solid #D0D0D0;
+    border-radius: 5px;
+}
+.line-4{
+    font-family: 'Lato' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0125em;
+    color: #515151;
+    
+}
+.line-4-link{
+    color:#0098EA
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:16px;
+
+  
+}
+.google{
+   
+}
